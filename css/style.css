@@ -9,7 +9,17 @@ body {
   color: #89023e;
   text-align: center;
 }
+#page-banner {
+  width: 100%;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  background-color: #89023e;
+  border-bottom: 3px solid #548c89;
+}
 
+#page-banner h1 {
+  color: #ffc2c5;
+}
 h1 {
   font-family: "Pacifico", cursive;
   color: #548c89;
