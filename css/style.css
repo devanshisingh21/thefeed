@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: #ffc2c5;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Times New Roman", Times, serif;
+  color: #89023e;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #548c89;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  color: #89023e;
+}
+
+a {
+  color: #cc7178;
+}
+
+img,
+video {
+  margin: 10px 0;
+}
+
+section {
+  border: 2px solid #d49487;
+  margin: 20px auto;
+  padding: 15px;
+  width: 300px;
+  background-color: #ffc2c5;
+}
+
+#main-feed {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+#leftcol {
+  flex: 2;
+  padding: 15px;
+  margin: 2%;
+  border: 3px solid #cc7178;
+  background-color: transparent;
+}
+
+#rightcol {
+  flex: 3;
+  padding: 15px;
+  margin: 2%;
+  border: 3px solid #89023e;
+  background-color: transparent;
+}
